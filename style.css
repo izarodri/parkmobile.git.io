@@ -1,0 +1,230 @@
+html body{
+    background-color: black;
+margin: 0px;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    
+}
+
+main{
+    overflow: hidden; /* Para garantir que não haja barra de rolagem horizontal */
+  ;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+section{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start; /* Alinhar os botões à esquerda */
+    height: 100vh;
+}
+
+.textoinicial{
+    width: 75%;
+    height: 100vh;
+    font-family: Trebuchet MS, sans-serif;
+    color: white;
+    letter-spacing: -0.050px;
+}
+
+.linha{
+    right: left;
+    width: 120%;
+    background-color: #717171;
+    margin-top: 55px;
+    margin-left: 0;
+    
+}
+
+.divinicio{
+    margin-left: 12%;
+}
+
+.diviniciop{
+    font-size: 120%; 
+    font-weight: 700;
+     margin-top: 110px;
+}
+
+.diviniciopp{
+    font-size: 80%;
+    font-weight: lighter; 
+    font-family: Courier New, monospace;
+}
+
+.imagemapa{
+   background-image: url(Imagens/Rectangle\ 57.png);
+   position: absolute;
+   top: 0;
+   right: 0;
+   width: 20%;
+   height: 100vh;
+   background-size: cover;
+   background-position: right top; 
+    
+}
+ 
+.imagelogo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.bottom-image {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 50px;
+    max-width: 24%;
+    max-height: auto;
+    min-width: 1%;
+    min-height: auto;
+    
+    
+}
+
+
+.butoss{
+    display: flex;
+    justify-content: flex-end; /* Alinhar os botões à direita */
+    box-sizing: border-box;
+    margin-right: 10%;
+    margin-top: 10%;
+    
+}
+.button{
+    
+    border-radius: 5px;
+    margin-left: 10px;
+    right: 0;
+    width: 90px;
+    height: 31px;
+}
+
+.butaocadastrastin{
+    color: white;
+    border: 2px solid white;
+    background-color: transparent;
+    
+   
+}
+
+.butaologintin{
+    color: black;
+    border: 2px solid rgb(255, 255, 255);
+    background-color: white;
+    
+    
+}
+
+
+
+section{
+    background-color: black;
+}
+
+.segundasection{
+    font-family: Trebuchet MS, sans-serif;
+    margin: 0;
+    border: 0;
+    padding: 0;
+    
+}
+
+.cinza{
+    width: 100%;
+    height: 200px;
+    flex-shrink: 0;
+    background: #090909;
+    display: flex; /* Use flexbox para centralizar */
+    flex-direction: column; /* Empilhe elementos verticalmente */
+    justify-content: center; /* Centralize verticalmente */
+    align-items: center; 
+    color: white;
+    margin: 0;
+    
+}
+
+.cinzap{
+    font-size: 120%;
+    font-weight: 800; 
+    margin-left: 10%; 
+    margin-right: 10%;
+   
+}
+
+.cinzapp{
+    font-size: 90%;
+    font-weight: 400;
+    margin-left: 10%; 
+    margin-right: 10%;
+}
+
+.apresentação{
+    width: 200px;
+    height: 360px;
+    border-radius: 10px;
+    background: #FFF;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+   
+ 
+}
+
+.logogrande{
+    max-width: 100%;
+    max-height: none; 
+    min-width: 10%;
+    min-height: auto;
+}
+
+.apresentação img {
+    display: block; 
+    margin: 0 auto; /* Centraliza horizontalmente a imagem dentro da div */
+    margin-top: 200px;
+}
+
+
+
+.letratitu{
+    color: #44454F;
+    font-size: 120%;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 150px;
+}
+
+.letratexto{
+    color: #766C6C;
+    font-size: 90%;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.lado{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 1%;
+    flex-wrap: wrap;
+   
+}
+
+a {
+    text-decoration: none;
+}
